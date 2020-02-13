@@ -1,0 +1,108 @@
+body{
+            background-image: url('./asserts/background-image1.png');
+            background-repeat: no-repeat;
+           background-position-x:100%;
+           background-position-y:52%;
+        }
+        table {
+            width: 50%;
+            table-layout: auto;
+            background-color: aliceblue;
+}
+table,td,th {
+  border-collapse: collapse;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(220, 62, 252);
+}
+
+th,td {
+  padding: 10px;
+  border: solid 1px;
+  border-right: none;
+  border-left: none;
+  text-align: left;
+}
+#bg{
+    background-color: rgb(245, 7, 7);
+}
+.logo{
+    margin-left: 80%;
+}
+h3 {
+  text-shadow: 4px 4px 4px rgb(97, 96, 96);
+}
+h1 {
+  text-shadow: 4px 4px 4px rgb(97, 96, 96);
+}
+footer{
+    height: 40px;
+    width: 50%;
+    background-color: red;
+    margin-top: 4%;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: rgb(12, 12, 12);
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: rgb(255, 7, 20);
+}
